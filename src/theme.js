@@ -1,8 +1,8 @@
 import { createTheme, responsiveFontSizes, adaptV4Theme } from "@mui/material";
 
 // colors
-const primary = "#b3294e";
-const secondary = "#4829B2";
+const primary = "#9f3434";
+const secondary = "#1666ba";
 const black = "#343a40";
 const darkBlack = "rgb(36, 40, 44)";
 const background = "#f5f5f5";

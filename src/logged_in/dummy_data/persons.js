@@ -1,43 +1,27 @@
 const data = [
   {
     src: `${process.env.PUBLIC_URL}/images/logged_in/image1.jpg`,
-    name: "Markus",
+    name: "Property 1",
   },
   {
     src: `${process.env.PUBLIC_URL}/images/logged_in/image2.jpg`,
-    name: "David",
+    name: "Property 2",
   },
   {
     src: `${process.env.PUBLIC_URL}/images/logged_in/image3.jpg`,
-    name: "Arold",
+    name: "Property 3",
   },
   {
     src: `${process.env.PUBLIC_URL}/images/logged_in/image4.jpg`,
-    name: "Joanic",
+    name: "Property 4",
   },
   {
     src: `${process.env.PUBLIC_URL}/images/logged_in/image5.jpg`,
-    name: "Sophia",
+    name: "Property 5",
   },
   {
     src: `${process.env.PUBLIC_URL}/images/logged_in/image6.jpg`,
-    name: "Aaron",
-  },
-  {
-    src: `${process.env.PUBLIC_URL}/images/logged_in/image7.jpg`,
-    name: "Steven",
-  },
-  {
-    src: `${process.env.PUBLIC_URL}/images/logged_in/image8.jpg`,
-    name: "Felix",
-  },
-  {
-    src: `${process.env.PUBLIC_URL}/images/logged_in/image9.jpg`,
-    name: "Vivien",
-  },
-  {
-    src: `${process.env.PUBLIC_URL}/images/logged_in/image10.jpg`,
-    name: "Leonie",
+    name: "Property 6",
   },
 ];
 

@@ -65,7 +65,7 @@ function PricingSection(props) {
             data-aos="zoom-in-up"
           >
             <PriceCard
-              title="Starter"
+              title="Standard"
               pricing={
                 <span>
                   $14.99
@@ -86,7 +86,7 @@ function PricingSection(props) {
           >
             <PriceCard
               highlighted
-              title="Premium"
+              title="Professional"
               pricing={
                 <span>
                   $29.99
@@ -106,7 +106,7 @@ function PricingSection(props) {
             data-aos-delay={isWidthUpMd ? "400" : "0"}
           >
             <PriceCard
-              title="Business"
+              title="Gold"
               pricing={
                 <span>
                   $49.99
@@ -126,7 +126,7 @@ function PricingSection(props) {
             data-aos-delay={isWidthUpMd ? "600" : "200"}
           >
             <PriceCard
-              title="Tycoon"
+              title="Platinum"
               pricing={
                 <span>
                   $99.99

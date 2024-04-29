@@ -47,12 +47,12 @@ function LoginDialog(props) {
   const login = useCallback(() => {
     setIsLoading(true);
     setStatus(null);
-    if (loginEmail.current.value !== "test@web.com") {
+    if (loginEmail.current.value !== "decuresolutions@web.com") {
       setTimeout(() => {
         setStatus("invalidEmail");
         setIsLoading(false);
       }, 1500);
-    } else if (loginPassword.current.value !== "HaRzwc") {
+    } else if (loginPassword.current.value !== "GTMexpert!") {
       setTimeout(() => {
         setStatus("invalidPassword");
         setIsLoading(false);
@@ -140,9 +140,9 @@ function LoginDialog(props) {
               </HighlightedInformation>
             ) : (
               <HighlightedInformation>
-                Email is: <b>test@web.com</b>
+                Email is: <b>decuresolutions@web.com</b>
                 <br />
-                Password is: <b>HaRzwc</b>
+                Password is: <b>GTMexpert!</b>
               </HighlightedInformation>
             )}
           </Fragment>
