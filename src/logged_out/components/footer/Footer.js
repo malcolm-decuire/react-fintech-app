@@ -99,7 +99,7 @@ const socialIcons = [
       </svg>
     ),
     label: "Github",
-    href: "https://github.com/dunky11/react-saas-template",
+    href: "https://github.com/malcolm-decuire",
   },
   {
     icon: (
@@ -115,7 +115,7 @@ const socialIcons = [
       </svg>
     ),
     label: "LinkedIn",
-    href: "https://www.linkedin.com/",
+    href: "https://www.linkedin.com/in/malcolmdecuire/",
   },
 ];
 
@@ -192,10 +192,10 @@ function Footer(props) {
           </Hidden>
           <Grid item xs={12} md={6} lg={4}>
             <Typography variant="h6" paragraph className="text-white">
-              About the Company
+              Company Info
             </Typography>
             <Typography style={{ color: "#8f9296" }} paragraph>
-              Decure Solutions is a fictional corporation 
+              Decure Solutions Corp. Inc. SA. 
             </Typography>
             <Box display="flex">
               {socialIcons.map((socialIcon, index) => (
