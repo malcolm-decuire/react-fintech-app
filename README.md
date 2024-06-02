@@ -1,6 +1,5 @@
-# React SaaS Template
- A template for building an SaaS/admin application using React + Material-UI.
- This repo is designed to be a teaching example to folks looking to blend business & technology with a focus on finance
+# FinTech App 
+Made w/ React + Material UI inspired by this repo https://github.com/dunky11/react-saas-template 
 
 [**Check out the demo**](https://)
 
@@ -26,7 +25,7 @@
 1. Clone the original repository
 
    ```
-   git clone https://github.com/dunky11/react-saas-template
+   git clone 
    ```
 2. Install dependencies, this can take a minute
 
