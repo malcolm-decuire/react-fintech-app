@@ -36,7 +36,7 @@ function BlogPost(props) {
   const { classes, date, title, src, content, otherArticles } = props;
 
   useEffect(() => {
-    document.title = `WaVer - ${title}`;
+    document.title = `DecureSolutions - ${title}`;
     smoothScrollTop();
   }, [title]);
 
@@ -70,8 +70,8 @@ function BlogPost(props) {
                         <Grid item key={index}>
                           <ShareButton
                             type={type}
-                            title="React SaaS Template"
-                            description="I found an awesome template for an webapp using React!"
+                            title="Decure Solutions React App"
+                            description="React & Material UI app that blends finance & tech"
                             disableElevation
                             variant="contained"
                             className="text-white"
